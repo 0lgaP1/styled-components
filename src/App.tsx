@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import styled from "styled-components";
 import {Link} from "./components/Link";
-import {StyledBtn} from "./components/StyledBtn";
+import {StyledBtn, SuperBtn} from "./components/StyledBtn";
 import {Box} from "./components/Box";
 import {Menu} from "./components/Menu";
+
 
 function App() {
   return (
@@ -29,9 +29,5 @@ function App() {
 
 export default App;
 
-const SuperBtn = styled(StyledBtn)`
-    background-color: aqua;
-    border-radius: 10px;
-    color: darkslategrey;
-`
+
 

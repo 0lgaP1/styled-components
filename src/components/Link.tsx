@@ -6,7 +6,5 @@ export const Link = styled.a`
     color: #131111;
     padding: 0;
 
-    ${Link} {
-        cursor: zoom-in;
-    }
+    
 `
